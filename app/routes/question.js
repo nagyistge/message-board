@@ -23,9 +23,22 @@ export default Ember.Route.extend({
       let question = params.question;
       question.get('answers').addObject(newAnswer);
       newAnswer.save().then(function() {
-        return question.save()
+        return question.save();
       });
       this.transitionTo('question', question);
+    },
+    updateAnswer(answer, params) {
+      Object.keys(params).forEach(function(key) {
+        if(params[key] !== undefined) {
+          answer.set(key, params[key]);
+        }
+      });
+      answer.save();
+      this.refresh();
+    },
+    deleteAnswer(answer) {
+      answer.destroyRecord();
+      this.refresh();
     }
   }
 });
