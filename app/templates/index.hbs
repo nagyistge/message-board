@@ -1,10 +1,7 @@
-<h3 class="indigo-text text-accent-2 center-align">Questions</h3>
+<h3 class="indigo-text text-darken-2 center-align">Questions</h3>
 
 {{#each model as |question|}}
-  <div class="card indigo white-text">
-    <div class="card-content">
-      <p class="indigo-text text-lighten-3">{{question.author}}</p>
-      <span class="card-title">{{question.content}}</span>
-    </div>
-  </div>
+  {{#link-to 'question' question}}{{question-card question=question}}{{/link-to}}
 {{/each}}
+
+{{new-question saveQuestion="saveQuestion"}}

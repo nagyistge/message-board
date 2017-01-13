@@ -5,15 +5,16 @@ $roboto-font-path: '../assets/';
 @import "materialize";
 
 $icon-size: 40px;
-$footer-height: 122px;
+$footer-height: 124px;
 
-html, body, body .ember-view {
+html, body, body>.ember-view {
   height: 100%;
 }
 
 .full-wrap {
   min-height: 100%;
-  margin-bottom: -$footer-height;
+  margin-bottom: -$footer-height - 20px;
+  padding-bottom: $footer-height + 20px;
 }
 
 footer {
