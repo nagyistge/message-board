@@ -1,10 +1,26 @@
-# _Doctor Search_
+# _Message Board_
 
 ####  _By [Kenneth Black](http://lawlietblack.com), 1/13/2017_
 
 ## Description
 
 A question and answer message board where a user submits a question and other users can respond with answers.
+
+Live version can be found on heroku [here](https://questions-kb.herokuapp.com/)
+
+## Project Requirements
+
+* Questions should have the content of the question itself, an author and additional notes.
+* Answers should have the content of the answer and the author.
+* Include a header and/or navbar that appears on all pages containing the name of your site and a link to the home page.
+* List all questions on the homepage, with only the question and the name of the author showing.
+* Users should be able to click on a question, and be routed to another page containing additional information.
+* Allow users to add and edit questions.
+* Allow users to add answers to a question. Answers should be added and viewed on the same page as the question they respond to.
+* Application template contains header with link(s).
+* Data is stored in and retrieved from Ember Data models and Firebase.
+* Components are used to create display and behavior for your templates.
+* One-to-many relationship exists between Question and Answers.
 
 ## Prerequisites
 
@@ -45,14 +61,14 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
+## Technologies Used
 
-Specify what it takes to deploy your app.
+_Javascript, Ember, Firebase, Node.js, Gulp, Sass, HTML_
 
-## Further Reading / Useful Links
+## Known Issues
 
-* [ember.js](http://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+## License
+
+*MIT License*
+
+Copyright (c) 2017 **_Kenneth Black_**

@@ -1,9 +1,15 @@
 {
   "questions": [{
-    "content": "What is your name?"
+    "content": "What is your name?",
+    "author": "Keeper of the Bridge of Death",
+    "notes": "question 1 of 3"
   }, {
-    "content": "What is your quest?"
+    "content": "What is your quest?",
+    "author": "Keeper of the Bridge of Death",
+    "notes": "question 2 of 3"
   }, {
-    "content": "What is the capital of Assyria?"
+    "content": "What is the capital of Assyria?",
+    "author": "Keeper of the Bridge of Death",
+    "notes": "question 3 of 3"
   }]
 }
