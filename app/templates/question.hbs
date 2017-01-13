@@ -1,3 +1,17 @@
 {{question-detail question=model}}
 
 {{question-edit question=model updateQuestion="updateQuestion" deleteQuestion="deleteQuestion"}}
+
+<h4 class="indigo-text text-accent-4">Answers</h4>
+
+
+{{#each model.answers as |answer|}}
+  <div class="card indigo white-text">
+    <div class="card-content">
+      <p class="indigo-text text-lighten-3">{{answer.author}}</p>
+      <span class="card-title">{{answer.content}}</span>
+    </div>
+  </div>
+{{/each}}
+
+{{new-answer question=model saveAnswer="saveAnswer"}}
