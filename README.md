@@ -1,7 +1,10 @@
-# message-board
+# _Doctor Search_
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+####  _By [Kenneth Black](http://lawlietblack.com), 1/13/2017_
+
+## Description
+
+A question and answer message board where a user submits a question and other users can respond with answers.
 
 ## Prerequisites
 
@@ -12,6 +15,7 @@ You will need the following things properly installed on your computer.
 * [Bower](https://bower.io/)
 * [Ember CLI](https://ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
+* [Firebase](https://firebase.google.com)
 
 ## Installation
 
@@ -19,6 +23,8 @@ You will need the following things properly installed on your computer.
 * `cd message-board`
 * `npm install`
 * `bower install`
+* `cp sample.env .env`
+* set up firebase configuration in .env file [help here](https://firebase.google.com/docs/web/setup)
 
 ## Running / Development
 
