@@ -39,8 +39,6 @@ You will need the following things properly installed on your computer.
 * `cd message-board`
 * `npm install`
 * `bower install`
-* `cp sample.env .env`
-* set up firebase configuration in .env file [help here](https://firebase.google.com/docs/web/setup)
 
 ## Running / Development
 
